@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>Highway to Oscar</title>
+
+    <style>
+    body            { background: #111; }
+    #platformer     { margin: 1em auto; position: relative; width: 1024px; height: 768px; }
+    #canvas         { display: inline-block; width: 100%; height: 100%; }
+    #instructions   { font-style: italic; color: #999; font-size: 9pt; margin-left: 1em; margin-top: 0.5em; }
+    #instructions b { color: #DDD; }
+    </style>
+
+</head>
+<body>
+    <div id="platformer">
+        <canvas id="canvas">
+        <div class="unsupported">
+            Sorry, this example cannot be run because your browser does not support the "CANVAS" element
+        </div>
+        </canvas>
+
+        <div id="instructions">  
+            <b>A/D</b> to move, <b>W</b> to jump, <b>I</b> to double jump, <b>J</b> to shoot
+        </div>
+        
+    </div>
+
+<script src="fpsmeter.min.js"></script>
+<script src="platformer.js"></script>
+
+</body>
+</html>
